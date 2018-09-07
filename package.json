@@ -1,0 +1,26 @@
+{
+  "name": "alfred-bundlephobia",
+  "version": "0.0.1",
+  "description": "Alfred 3 workflow to find a Javascript bundle size",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prashantpalikhe/alfred-bundlephobia.git"
+  },
+  "author": "Prashant <prashpal09@gmail.com>",
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prashantpalikhe/alfred-bundlephobia/issues"
+  },
+  "homepage": "https://github.com/prashantpalikhe/alfred-bundlephobia#readme",
+  "dependencies": {
+    "alfy": "^0.7.0"
+  }
+}
