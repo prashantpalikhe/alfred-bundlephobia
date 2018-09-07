@@ -6,7 +6,7 @@ async function main() {
 		const { name, version, gzip, size } = await getPackageStats(alfy.input);
 
 		alfy.output([{
-            title: `${ name} @${ version }`,
+            title: `${ name}@${ version }`,
             subtitle: `Size: ${formatBytes(size)}, Gzip: ${formatBytes(gzip)}`
         }]);
 	} catch (e) {
