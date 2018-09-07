@@ -2,6 +2,8 @@
 
 > Alfred 3 workflow to find a JavaScript bundle size
 
+<img src="alfred-bundlephobia.gif" width="895">
+
 
 ## Install
 
