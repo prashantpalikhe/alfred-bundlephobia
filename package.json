@@ -1,6 +1,6 @@
 {
   "name": "alfred-bundlephobia",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Alfred 3 workflow to find a JavaScript bundle size",
   "license": "MIT",
   "repository": "prashantpalikhe/alfred-bundlephobia",
