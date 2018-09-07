@@ -3,7 +3,6 @@ const { formatBytes, getPackageStats } = require('./util');
 
 async function main() {
 	try {
-		debugger;
 		const { name, gzip, size } = await getPackageStats(alfy.input);
 
 		alfy.output([{
