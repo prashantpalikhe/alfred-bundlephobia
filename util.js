@@ -21,7 +21,10 @@ const util = {
 		try {
 			const result = await alfy.fetch(
 				`https://bundlephobia.com/api/size?package=${packageName}`,
-				{headers: {'User-Agent': 'alfred-bundlephobia'}}
+				{
+					headers: {'User-Agent': 'alfred-bundlephobia'},
+					maxAge: 60000
+				}
 			);
 
 			if (result.error) {

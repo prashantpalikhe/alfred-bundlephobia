@@ -77,7 +77,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Alfred 3 workflow to find a JavaScript bundle size</string>
+				<string>Find a JavaScript bundle size</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
