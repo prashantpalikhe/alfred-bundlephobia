@@ -7,7 +7,9 @@ async function main() {
 
 		alfy.output([{
             title: `${ name}@${ version }`,
-            subtitle: `Size: ${formatBytes(size)}, Gzip: ${formatBytes(gzip)}`
+            subtitle: `Size: ${formatBytes(size)}, Gzip: ${formatBytes(gzip)}`,
+	    arg: `https://bundlephobia.com/result?p=${name}@{version}`,
+	    quicklookurl: `https://bundlephobia.com/result?p=${name}@{version}`
         }]);
 	} catch (e) {
 		alfy.error(e.message);
