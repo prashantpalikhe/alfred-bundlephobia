@@ -1,6 +1,6 @@
 # alfred-bundlephobia [![Build Status](https://travis-ci.org/prashantpalikhe/alfred-bundlephobia.svg?branch=master)](https://travis-ci.org/prashantpalikhe/alfred-bundlephobia)
 
-> Alfred 3 workflow to find a JavaScript bundle size
+> Alfred workflow to find a JavaScript bundle size
 
 <img src="alfred-bundlephobia.gif" width="895">
 
@@ -11,7 +11,7 @@
 $ npm install --global alfred-bundlephobia
 ```
 
-*Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
+*Requires [Node.js](https://nodejs.org) 6+ and the Alfred 3 or 4 with [Powerpack](https://www.alfredapp.com/powerpack/).*
 
 
 ## Usage
